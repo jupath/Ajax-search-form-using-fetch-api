@@ -8,5 +8,5 @@ cd scss/
 sass style.scss ../style.css
 ```
 
-[DEMO PAGE HERE](https://jupath.github.io)
+#### [DEMO PAGE HERE](https://jupath.github.io/Ajax-search-form-using-fetch-api/)
 Demo page uses https://randomuser.me/
