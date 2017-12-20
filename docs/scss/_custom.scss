@@ -1,0 +1,102 @@
+body {
+    color: $base-font-color;
+    background-color: $body-bg-color;
+    font-family: $font-family;
+    font-size: $base-font-size;
+
+    .users-wrapper {
+        background-color: $background-color;
+        padding: 15px;
+
+        @media screen and (min-width: $break-point-large) {
+            margin: 20px 20%;
+        }
+
+        h1, h5 {
+            text-align: center;
+        }
+
+        h5 {
+            a {
+                font-weight: 600;
+            }
+
+            margin-bottom: 30px;
+        }
+
+        .loading {
+            display: block;
+            margin: 100px auto;
+            width: 40px;
+            height: 40px;
+        }
+
+        #search-form {
+            width: 100%;
+            height: 80px;
+            input[type="text"] {
+                width: 100%;
+                padding: 8px 10px;
+            }
+            button {
+                width: 19%;
+                height: 40px;
+                float: left;
+                margin-left: 5px;
+            }
+        }
+
+        .sort-wrapper {
+            width: 100%;
+            padding: 8px;
+            background-color: $dark-gray;
+
+            span {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            #sort {
+                text-align: right;
+            }
+        }
+
+        ul {
+            list-style: none;
+            width: 100%;
+            padding-left: 0;
+
+            li {
+                padding: 14px;
+
+                border-top: 1px dashed #ccc;
+                min-height: 100px;
+                text-transform: capitalize;
+                &:last-child {
+                    border-bottom: 1px dashed #ccc;
+                }
+
+                &:hover {
+                    background-color: $dark-gray;
+                }
+
+                span.hl {
+                    background-color: yellow;
+                }
+
+                img {
+                    float: left;
+                    padding-right: 10px;
+                }
+
+                h4 {
+                    margin-top: 0;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax Users</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+           <div class="users-wrapper">
+               <h1>AJAX search form using fetch API</h1>
+               <h5>View <a href="">source on Github</a></h5>
+               <form id="search-form">
+                  <input type="text" class="search" placeholder="Search by name">
+               </form>
+               <div class="sort-wrapper">
+                   <div id="sort">Sort list by name: <span class="asc" title="Ascending">&#x25B2;</span> <span class="desc" title="Descending">&#x25BC;</span></div>
+               </div>
+               <ul id="users"><img class="loading" src="assets/spin.gif"></ul>
+           </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "ajax-users",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
