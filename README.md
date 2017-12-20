@@ -8,5 +8,5 @@ cd scss/
 sass style.scss ../style.css
 ```
 
-[DEMO PAGE HERE](https://jupath.github.io)
+#### [DEMO PAGE HERE](https://jupath.github.io)
 Demo page uses https://randomuser.me/
