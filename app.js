@@ -1,6 +1,4 @@
 (function() {
-'use strict';
-
 const endpoint = 'https://randomuser.me/api/?results=30'; // Random users endpoint
 
 const usersArr = [];
