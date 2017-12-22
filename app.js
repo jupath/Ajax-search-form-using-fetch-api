@@ -8,7 +8,7 @@ const usersDOM = document.getElementById('users');
 const sortDOM = document.getElementById('sort');
 let filteredArr;
 
-// Get random usres using fetch API
+// Get random users using fetch API
 fetch(endpoint)
     .then( response => {
 
